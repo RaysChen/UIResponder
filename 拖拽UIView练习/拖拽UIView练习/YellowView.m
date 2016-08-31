@@ -15,6 +15,7 @@
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
 
     NSLog(@"%s",__func__);
+    NSLog(@"%ld",touches.count);
 
 }
 
@@ -22,6 +23,20 @@
 -(void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
 
     NSLog(@"%s",__func__);
+    
+    //获取UITouch对象
+    UITouch *touch = [touches anyObject];
+    
+    //获取当前点
+    CGPoint cruP = [touch locationInView:self];
+    //获取上一个点
+    CGPoint preP  = [touch previousLocationInView:self];
+    //获取x轴偏移量
+    CGFloat offsetX = cruP.x - preP.x;
+    //获取y轴的偏移量
+    CGFloat offsetY= cruP.y - preP.y;
+    //修改view的位置
+    self.transform = CGAffineTransformTranslate(self.transform, offsetX, offsetY);
 }
 
 //当手指离开view的时候调用
