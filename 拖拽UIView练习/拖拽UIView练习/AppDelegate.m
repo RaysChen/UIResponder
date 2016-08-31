@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  事件处理练习1
+//  拖拽UIView练习
 //
-//  Created by 陈曦 on 16/8/26.
+//  Created by 陈曦 on 16/8/31.
 //  Copyright © 2016年 chenxi. All rights reserved.
 //
 

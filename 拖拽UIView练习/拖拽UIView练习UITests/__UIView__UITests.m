@@ -1,18 +1,18 @@
 //
-//  ______1UITests.m
-//  事件处理练习1UITests
+//  __UIView__UITests.m
+//  拖拽UIView练习UITests
 //
-//  Created by 陈曦 on 16/8/26.
+//  Created by 陈曦 on 16/8/31.
 //  Copyright © 2016年 chenxi. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface ______1UITests : XCTestCase
+@interface __UIView__UITests : XCTestCase
 
 @end
 
-@implementation ______1UITests
+@implementation __UIView__UITests
 
 - (void)setUp {
     [super setUp];

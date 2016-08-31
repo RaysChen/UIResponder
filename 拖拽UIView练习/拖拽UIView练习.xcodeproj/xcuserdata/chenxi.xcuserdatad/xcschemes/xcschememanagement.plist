@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>事件处理练习1.xcscheme</key>
+		<key>拖拽UIView练习.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>159A16C11D703AB600FCBB75</key>
+		<key>155939261D76D44100FA0E6D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>159A16DA1D703AB600FCBB75</key>
+		<key>1559393F1D76D44100FA0E6D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>159A16E51D703AB600FCBB75</key>
+		<key>1559394A1D76D44100FA0E6D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
