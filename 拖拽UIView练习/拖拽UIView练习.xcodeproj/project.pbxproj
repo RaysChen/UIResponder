@@ -15,6 +15,7 @@
 		1559393A1D76D44100FA0E6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155939381D76D44100FA0E6D /* LaunchScreen.storyboard */; };
 		155939451D76D44100FA0E6D /* __UIView__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 155939441D76D44100FA0E6D /* __UIView__Tests.m */; };
 		155939501D76D44100FA0E6D /* __UIView__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1559394F1D76D44100FA0E6D /* __UIView__UITests.m */; };
+		1559395F1D76E92B00FA0E6D /* YellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1559395E1D76E92B00FA0E6D /* YellowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1559394B1D76D44100FA0E6D /* 拖拽UIView练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "拖拽UIView练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1559394F1D76D44100FA0E6D /* __UIView__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UIView__UITests.m; sourceTree = "<group>"; };
 		155939511D76D44100FA0E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1559395D1D76E92B00FA0E6D /* YellowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowView.h; sourceTree = "<group>"; };
+		1559395E1D76E92B00FA0E6D /* YellowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				155939301D76D44100FA0E6D /* ViewController.h */,
 				155939311D76D44100FA0E6D /* ViewController.m */,
 				155939331D76D44100FA0E6D /* Main.storyboard */,
+				1559395D1D76E92B00FA0E6D /* YellowView.h */,
+				1559395E1D76E92B00FA0E6D /* YellowView.m */,
 				155939361D76D44100FA0E6D /* Assets.xcassets */,
 				155939381D76D44100FA0E6D /* LaunchScreen.storyboard */,
 				1559393B1D76D44100FA0E6D /* Info.plist */,
@@ -275,6 +280,7 @@
 			files = (
 				155939321D76D44100FA0E6D /* ViewController.m in Sources */,
 				1559392F1D76D44100FA0E6D /* AppDelegate.m in Sources */,
+				1559395F1D76E92B00FA0E6D /* YellowView.m in Sources */,
 				1559392C1D76D44100FA0E6D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
