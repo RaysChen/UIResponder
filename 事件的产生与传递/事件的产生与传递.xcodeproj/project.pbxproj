@@ -15,6 +15,13 @@
 		151ADF8A1D7816830042A81A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151ADF881D7816830042A81A /* LaunchScreen.storyboard */; };
 		151ADF951D7816840042A81A /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 151ADF941D7816840042A81A /* ________Tests.m */; };
 		151ADFA01D7816840042A81A /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 151ADF9F1D7816840042A81A /* ________UITests.m */; };
+		151ADFAF1D781B430042A81A /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 151ADFAE1D781B430042A81A /* BaseView.m */; };
+		151ADFB21D781BB90042A81A /* WhiteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 151ADFB11D781BB90042A81A /* WhiteView.m */; };
+		151ADFB51D781BD70042A81A /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 151ADFB41D781BD70042A81A /* GreenView.m */; };
+		151ADFB81D781BF20042A81A /* BlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 151ADFB71D781BF20042A81A /* BlueView.m */; };
+		151ADFBB1D781C140042A81A /* OrangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 151ADFBA1D781C140042A81A /* OrangeView.m */; };
+		151ADFBE1D781C290042A81A /* YellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 151ADFBD1D781C290042A81A /* YellowView.m */; };
+		151ADFC11D781C810042A81A /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 151ADFC01D781C810042A81A /* RedView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,20 @@
 		151ADF9B1D7816840042A81A /* 事件的产生与传递UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "事件的产生与传递UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		151ADF9F1D7816840042A81A /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		151ADFA11D7816840042A81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		151ADFAD1D781B430042A81A /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		151ADFAE1D781B430042A81A /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		151ADFB01D781BB90042A81A /* WhiteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteView.h; sourceTree = "<group>"; };
+		151ADFB11D781BB90042A81A /* WhiteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteView.m; sourceTree = "<group>"; };
+		151ADFB31D781BD70042A81A /* GreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenView.h; sourceTree = "<group>"; };
+		151ADFB41D781BD70042A81A /* GreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenView.m; sourceTree = "<group>"; };
+		151ADFB61D781BF20042A81A /* BlueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueView.h; sourceTree = "<group>"; };
+		151ADFB71D781BF20042A81A /* BlueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueView.m; sourceTree = "<group>"; };
+		151ADFB91D781C140042A81A /* OrangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeView.h; sourceTree = "<group>"; };
+		151ADFBA1D781C140042A81A /* OrangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeView.m; sourceTree = "<group>"; };
+		151ADFBC1D781C290042A81A /* YellowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowView.h; sourceTree = "<group>"; };
+		151ADFBD1D781C290042A81A /* YellowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowView.m; sourceTree = "<group>"; };
+		151ADFBF1D781C810042A81A /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		151ADFC01D781C810042A81A /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +131,20 @@
 				151ADF881D7816830042A81A /* LaunchScreen.storyboard */,
 				151ADF8B1D7816830042A81A /* Info.plist */,
 				151ADF7A1D7816830042A81A /* Supporting Files */,
+				151ADFAD1D781B430042A81A /* BaseView.h */,
+				151ADFAE1D781B430042A81A /* BaseView.m */,
+				151ADFB01D781BB90042A81A /* WhiteView.h */,
+				151ADFB11D781BB90042A81A /* WhiteView.m */,
+				151ADFB31D781BD70042A81A /* GreenView.h */,
+				151ADFB41D781BD70042A81A /* GreenView.m */,
+				151ADFB61D781BF20042A81A /* BlueView.h */,
+				151ADFB71D781BF20042A81A /* BlueView.m */,
+				151ADFB91D781C140042A81A /* OrangeView.h */,
+				151ADFBA1D781C140042A81A /* OrangeView.m */,
+				151ADFBC1D781C290042A81A /* YellowView.h */,
+				151ADFBD1D781C290042A81A /* YellowView.m */,
+				151ADFBF1D781C810042A81A /* RedView.h */,
+				151ADFC01D781C810042A81A /* RedView.m */,
 			);
 			path = "事件的产生与传递";
 			sourceTree = "<group>";
@@ -273,9 +308,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151ADFB21D781BB90042A81A /* WhiteView.m in Sources */,
+				151ADFBE1D781C290042A81A /* YellowView.m in Sources */,
 				151ADF821D7816830042A81A /* ViewController.m in Sources */,
+				151ADFB51D781BD70042A81A /* GreenView.m in Sources */,
 				151ADF7F1D7816830042A81A /* AppDelegate.m in Sources */,
 				151ADF7C1D7816830042A81A /* main.m in Sources */,
+				151ADFB81D781BF20042A81A /* BlueView.m in Sources */,
+				151ADFBB1D781C140042A81A /* OrangeView.m in Sources */,
+				151ADFC11D781C810042A81A /* RedView.m in Sources */,
+				151ADFAF1D781B430042A81A /* BaseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
